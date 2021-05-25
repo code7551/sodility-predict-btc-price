@@ -26,9 +26,9 @@ contract BtcPredict {
         int256 price = getThePrice() / 100000000;
         string memory message;
         if(predict - price > 0)
-          message = "the price is more then your predict benlnwza";
+          message = "the price is more than your predict";
         else if ( predict - price < 0)
-          message = "the price is less than your predict benlnwza";
+          message = "the price is less than your predict";
         else
           message = "WOW!!! You guessed it right";
           
